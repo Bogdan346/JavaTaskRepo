@@ -7,7 +7,7 @@ import java.util.Set;
 public class SetMapClass {
     public static void main(String[] args) {
 
-
+//Создать set и передать в него 2 одинаковых значения
         Set<String> set = new HashSet<String>();
 set.add("value");
 set.add("value");

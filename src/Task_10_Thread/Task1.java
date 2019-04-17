@@ -24,6 +24,7 @@ class SomeThread implements Runnable {
 
 public class Task1 {
     public static void main(String[] args) {
+        //1.Cоздать синхронизированый метод который будет использоватся в 2 разных потоках
         Thread t1 = new Thread(new SomeThread());
         t1.start();
         Thread t2 = new Thread(new SomeThread());

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Task_2 {
     public static void main(String[] args) {
        // Факториал числа
+
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите число ");

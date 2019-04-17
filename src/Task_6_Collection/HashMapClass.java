@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapClass {
+//    1.Создать hashMap и добавить в него несколько  обьектов
+//            .Вывести в консоль все данные
     public static void main(String[] args) {
         Map<String  ,Integer>map =new HashMap<String, Integer>();
         map.put("key1",1);
